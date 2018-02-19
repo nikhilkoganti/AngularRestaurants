@@ -1,0 +1,17 @@
+[
+    {
+      "name" : "Tadka",
+      "rating" : "4.5",
+      "city" : "Alpharetta"
+    },
+    {
+      "name" : "Adda",
+      "rating" : "5",
+      "city" : "Cumming"
+    },
+    {
+      "name" : "Tacobell",
+      "rating" : "3.4",
+      "city" : "Cumming"
+    }
+]
