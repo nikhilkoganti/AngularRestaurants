@@ -1,13 +1,18 @@
 import { Component, OnInit } from '@angular/core';
 
+import { IRestaurant } from './restaurant';
+import { RestaurantService } from './restaurant.service';
+
 @Component({
-  selector: 'app-restaurant-list',
   templateUrl: './restaurant-list.component.html',
   styleUrls: ['./restaurant-list.component.css']
 })
 export class RestaurantListComponent implements OnInit {
 
-  constructor() { }
+  pageTitle: string = 'Restaurant List';
+  
+
+  constructor(private _restaurantService : RestaurantService) { }
 
   ngOnInit() {
   }
